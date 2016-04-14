@@ -1,0 +1,8 @@
+require 'rake/testtask'
+require_relative 'test/test_cpuusage'
+
+Rake::TestTask.new do |t|
+t.libs << 'test'
+end
+
+

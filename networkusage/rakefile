@@ -1,0 +1,8 @@
+require 'rake/testtask'
+require_relative 'test/test_networkusage'
+
+Rake::TestTask.new do |t|
+t.libs << 'test'
+end
+
+
